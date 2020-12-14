@@ -12,4 +12,4 @@ else if(eta > 65){
   prezzo -= sconto;
 }
 
-document.getElementById('biglietto').innerHTML = 'il prezzo del tuo biglietto è' + ' ' + prezzo + '€';
+document.getElementById('biglietto').innerHTML = prezzo + '€';

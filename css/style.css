@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 200px auto;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(17, 205, 255);
+  text-align: center;
+  position: relative;
+}
+.testo p{
+  font-size: 40px;
+  padding: 40px 0;
+  color: white;
+}
+.img-train img{
+  height: 100px;
+  position: absolute;
+  top: 250px;
+  left:290px;
+  animation: train 3s linear infinite;
+}
+@keyframes train {
+  from{
+    top: 250px;
+    left:290px;
+  }
+  to{
+    top: 250px;
+    left: 0;
+  }
+}
+#biglietto{
+  font-size: 60px;
+  color: yellow;
+}
